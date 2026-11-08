@@ -8,8 +8,13 @@
 - 编写 work-sync skill、AGENTS.md 触发入口、Python 同步器、交接规范与恢复说明。
 - 六个集成测试通过：远端恢复/哈希/无变更、敏感文件排除、断网补传、多会话并发、删除语义、状态目录保护。
 
-## 正在进行
-首次实际 GitHub 推送、远端独立恢复检查和 watcher 启动。结果见后续 events 和同步器状态。
+## 远端验证
+- main 已上传 skill 和文档，首次代码提交 48d6b1d7e009a00e7004ef24b4425148df8e6af8。
+- agent-handoff 已成功上传；独立 GitHub clone 核验首个快照 13 个文件的 SHA-256 全部匹配，交接上下文可读取。
+- 60 秒 watcher 已启动，并产生 verified 结果。最终送达以最新 sync 状态为准。
+
+## 待完成的仓库设置
+空仓库首次收到 agent-handoff，GitHub 因此将其设为默认分支。当前网络禁止 api.github.com，无法调用 API 修改；请在仓库 Settings → General → Default branch 改为 main。两个分支均可使用，克隆代码时显式指定 --branch main。环境启动说明将保存为配置草稿；需通过环境设置保存并发布后用于后续任务。
 
 ## 下一步
 1. 核实 main 分支含 skill、agent-handoff 分支含快照。
