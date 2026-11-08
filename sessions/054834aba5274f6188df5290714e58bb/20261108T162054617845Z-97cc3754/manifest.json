@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "source_commit": "f9e26b1e59e18dec0fcf12f60786b98c8bc3b6db",
+  "files": {
+    ".agents/skills/work-sync/SKILL.md": "5763401856ac28783a46571eb3c83c8afa4d5f4cedbd519fb08e969bec4cfd13",
+    ".agents/skills/work-sync/references/recovery.md": "f1c37d48efce6f55756d6bd2d20b7999512cdfb2060866e2027483776a5da3cf",
+    ".agents/skills/work-sync/references/schema.md": "9229760b28918405ea1f9b6111fca81d0b2da364ad6c3a05dc7d3f745fbacbbc",
+    ".agents/skills/work-sync/scripts/sync.py": "00bc7bba3fd548dce6a2a09d6577a73c371c540d5753d194a0eefdc281e71e22",
+    ".gitignore": "edf583a195d8fbcf42d82a90ac355e01745bd7f9d62957e34bee03fb1b3b4014",
+    "AGENTS.md": "4be4ce9153bc5a4571a0971f7ccbdc2b5b7ab8a3f1c1fdb3d41b4ada9ab4225f",
+    "README.md": "3d44606c1818cc7465566fdaccc1a257381f8f0d5b73aeddea2559a94e33d298",
+    "handoff/CURRENT.md": "9399042e5642b0b3e7f05887c4216ab90fbb84c1a57154005b485c257b3a8377",
+    "handoff/INDEX.md": "b30edde6c9962e2a623fcda9dc39aacb0c8c9695fccac2c2c6032df694c72490",
+    "handoff/LESSONS.md": "831adb03819f81aa6948bc8febc04bc87661a87650a7e4bbe685cc90e57987b0",
+    "handoff/RESEARCH.md": "b2cda9803e100bb3f40ab826122841a329d2631f9e5746bfec5e73389cab4cd9",
+    "handoff/events/20261108T161600Z-implementation.md": "946446f8d5c11ece15a5b5fed39f6876884ef364509f625e9b307879eb58cf21",
+    "handoff/events/20261108T161835Z-delivery.md": "243bb3aa32f60f88b5aebbe218f860706e4700783e130437aaa04e9131c4ed29",
+    "handoff/events/20261108T162054Z-ac3d27d8.md": "a313bbec65d605bb3e06c522b1dc67ea4f4ff67130a74be0548945bd35c099b9",
+    "tests/test_sync.py": "8bf7cf3c5b396e3e1491893bcf8ab72df95e26ad64595747b6e4e70663d86ab9"
+  },
+  "omitted": [],
+  "captured_at": "2026-11-08T16:20:54.621404+00:00",
+  "session": "054834aba5274f6188df5290714e58bb"
+}
